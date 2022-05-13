@@ -4,12 +4,12 @@ export const ogImageUrl =
   "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
 
 export const introData = {
-  name: "Manassarn Manoonchai",
-  nickname: "Noom",
+  name: "Pongsakorn Samothai",
+  nickname: "Dream",
   phone: "",
-  email: "manassarn@gmail.com",
-  github: "narze",
-  linkedin: "manassarn",
+  email: "p.samothai@outlook.com",
+  github: "PSKdream",
+  linkedin: "pongsakornn",
   location: "Bangkok, Thailand",
   website: "narze.live",
 }
@@ -18,22 +18,25 @@ export const technologies = [
   {
     section: "Languages:",
     details:
-      "Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).",
+      "C, C#, Python, Java, JavaScript, TypeScript, SQL",
   },
   {
     section: "Frameworks:",
-    details:
-      "Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap",
+    details:{
+      section: "Frameworks:",
+        details:
+          "ReactJS, NextJS, SvelteJS, TailwindCSS, Bootstrap",
+    }
   },
   {
     section: "Tools:",
     details:
-      "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces",
+      "Git, Docker, Robot Framework, Selenium, Arduino",
   },
   {
     section: "Other:",
     details:
-      "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare",
+      "Firebase, Vercel, Netlify, DigitalOcean, Hadoop, MongoDB atlas",
   },
 ]
 
