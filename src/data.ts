@@ -66,7 +66,7 @@ export const projects = [
   {
     name: "Banana Weight Measurement By Using Image",
     details:"This is a model used to estimate the weight of a banana from an image using convolutional neural networks. This project uses the Tensorflow and Sklearn library in Python and SQLite.",
-    url: "https://github.com/PSKdream/CE59423/blob/main/project/banana_cnn.ipynb",
+    url: "github.com/PSKdream/CE59423/blob/main/project/banana_cnn.ipynb",
   },
   {
     name: "Prommanusorn school’s enrollment system",
