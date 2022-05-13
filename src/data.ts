@@ -76,7 +76,7 @@ export const projects = [
   {
     name: "Prommanusorn school’s recruitment system",
     details: "The system reads information from the applicant's ID card. And the system will automatically arrange the exam room and seat number. This project uses the Tkinter library in Python and SQLite.",
-    url: "thwordle.narze.live",
+    // url: "thwordle.narze.live",
   },
 ]
 
