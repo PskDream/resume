@@ -1,24 +1,24 @@
 <script lang="ts">
-  import Tailwind from "./Tailwind.svelte"
-  import Intro from "./Intro.svelte"
-  import Work from "./Work.svelte"
-  import Kofi from "./Kofi.svelte"
-  import HideToggle from "./HideToggle.svelte"
+  import Tailwind from "./Tailwind.svelte";
+  import Intro from "./Intro.svelte";
+  import Work from "./Work.svelte";
+  import Kofi from "./Kofi.svelte";
+  import HideToggle from "./HideToggle.svelte";
   import {
     educations,
     fullVersionLink,
-    interests,
+    references,
     introData,
     projects,
     sourceLink,
     technologies,
     workExperiences,
-  } from "./data"
+  } from "./data";
 
-  let editMode = false
+  let editMode = false;
 
   function toggleMode() {
-    editMode = !editMode
+    editMode = !editMode;
   }
 </script>
 
@@ -33,7 +33,7 @@
 <header
   class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen"
 >
-  <h1 class="text-4xl">Resumette</h1>
+  <h1 class="text-4xl">Résumé</h1>
   <h3>
     <button on:click={toggleMode} class="underline text-lg"
       >{editMode ? "[View]" : "[Edit]"}</button
@@ -112,11 +112,14 @@
       {#each projects as project}
         <li>
           <HideToggle />
-          <strong>{project.name}</strong>
-          - {project.details}
-          <a href="https://{project.url}" target="_blank" rel="noreferrer"
-            ><strong>{project.url}</strong></a
-          >
+          {#if project.url == undefined}
+            <strong>{project.name}</strong>
+          {:else}
+            <a href="https://{project.url}" target="_blank" rel="noreferrer"
+              ><strong>{project.name}</strong></a
+            >
+          {/if}
+          <ul class="index">{project.details}</ul>
         </li>
       {/each}
     </ul>
@@ -128,21 +131,30 @@
     <hr />
 
     <ul class="text-left list-disc pl-8">
-      {#each interests as interest}
+      {#each references as reference}
         <li>
           <HideToggle />
-          {interest}
+          {#if reference.url == undefined}
+            <strong>{reference.name}</strong>
+          {:else}
+            <a href="https://{reference.url}" target="_blank" rel="noreferrer"
+              ><strong>{reference.name}</strong></a
+            >
+          {/if}
+          {#each reference.details as detail}
+          <ul class="index">{detail}</ul>
+          {/each}
         </li>
       {/each}
     </ul>
   </section>
 
-  <footer class="print-only">
+  <!-- <footer class="print-only">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
       >full version</a
     >
     or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-  </footer>
+  </footer> -->
 </main>
 
 <style>
