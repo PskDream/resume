@@ -106,12 +106,12 @@ export const researchs = [
   {
     name: "Fracture Detection and Localization for long bones by X-ray images in JPEG format",
     details:"In this paper, we comprehensively study the performance of YOLO-X and YOLO-R under fracture bone X-ray images to locate the fracture locations.",
-    present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications (37th# ITC CSCC 2022)'
+    present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications'
   },
   {
     name: "Investigation of Multi-agent reinforcement learning on merge ramp for avoiding car crash on highway",
     details:"In this paper, we take the as length of prohibiting area and length of entrance area into the account to evaluate the performance of MARL. As a result, the MARL can avoid the car crashing effectively while achieve high rewards and high vehicle speed.",
-    present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications (37th# ITC CSCC 2022)'
+    present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications'
   }
 ]
 
