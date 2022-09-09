@@ -11,7 +11,7 @@ export const introData = {
   github: "PSKdream",
   linkedin: "pongsakornn",
   location: "Bangkok, Thailand",
-  website: "narze.live",
+  // website: "narze.live",
 }
 
 export const technologies = [
@@ -40,7 +40,7 @@ export const technologies = [
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Panyapiwat Institute of Management, TH. 2019-2022 (GPA 3.96 - 6 Semester)",
+    details: "Panyapiwat Institute of Management, TH. 2019-Current (GPA 3.96 - 6 Semester)",
   },
 ]
 
@@ -55,13 +55,35 @@ export const workExperiences = [
       "Designed dashboards for data visualization.",
     ],
   },
+  {
+    position: "Full-stack Developer",
+    company: "Brainergy Company Limited",
+    url: "https://brainergy.digital/",
+    years: ["Jun 2022", "Current"],
+    details: [
+      "Designed, developed and maintained several core services for website (Face Detection, Reporting, APIs, etc.) stack Django, Angular.",
+      "Designed, developed and maintained A back-end system that manages documents and sends emails (Concurrency Service) to customers using Django, Celery.",
+      "Designed and developed back-end systems to support migration of cloud services from Google Cloud to AWS.",
+    ],
+  },
+  {
+    position: "Full-stack Developer",
+    company: "Outsource",
+    years: ["Jun 2022"],
+    details: [
+      "Designed, developed a system for borrowing books in the library with UHF RFID on the Kiosk Touch Screen and installing equipment.",
+      "Designed, developed and maintained website (Book rental, Payment, Face Detection, Reporting, APIs, etc.).",
+      "Develop a membership system using face identification to verify identity using a Thai national ID card.",
+      "Design and installation of on-site network systems using Kiosk Touch Screen.",
+      "Researched & introduced modern technologies to the team, such as SvelteJS, TailwindCSS, Vite, Hardware for Kiosk, etc."
+    ],
+  },
 ]
 
 export const projects = [
   {
     name: "Fracture Detection and Localization for long bones by X-ray images in JPEG format",
-    details:"In the process of developing this research We present a model selection between YOLO-X and YOLO-R, a highly efficient neural network.",
-    // url: "https://github.com/PSKdream/CE59423/blob/main/project/banana_cnn.ipynb",
+    details:"In the process of developing this research We present a model selection between YOLO-X and YOLO-R, a highly efficient neural network. Present in The 37th International Technical Conference on Circuits/System, Computers and Communications (37th# ITC CSCC 2022)",
   },
   {
     name: "Banana Weight Measurement By Using Image",
@@ -78,6 +100,19 @@ export const projects = [
     details: "The system reads information from the applicant's ID card. And the system will automatically arrange the exam room and seat number. This project uses the Tkinter library in Python and SQLite.",
     // url: "thwordle.narze.live",
   },
+]
+
+export const researchs = [
+  {
+    name: "Fracture Detection and Localization for long bones by X-ray images in JPEG format",
+    details:"In this paper, we comprehensively study the performance of YOLO-X and YOLO-R under fracture bone X-ray images to locate the fracture locations.",
+    present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications (37th# ITC CSCC 2022)'
+  },
+  {
+    name: "Investigation of Multi-agent reinforcement learning on merge ramp for avoiding car crash on highway",
+    details:"In this paper, we take the as length of prohibiting area and length of entrance area into the account to evaluate the performance of MARL. As a result, the MARL can avoid the car crashing effectively while achieve high rewards and high vehicle speed.",
+    present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications (37th# ITC CSCC 2022)'
+  }
 ]
 
 export const references = [
@@ -105,12 +140,4 @@ export const references = [
       "Bangkok, Thailand",
     ]
   },
-  // {
-  //   name: "Supornchai Tiamtongorn",
-  //   details: [  
-  //     "Computer Teacher / Computer Technician",
-  //     "Department of Science and Technology, Prommanusorn Phetchaburi School",
-  //     "Phetchaburi, Thailand",
-  //   ]
-  // },
 ]

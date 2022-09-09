@@ -6,13 +6,13 @@
   import HideToggle from "./HideToggle.svelte";
   import {
     educations,
-    fullVersionLink,
     references,
     introData,
     projects,
     sourceLink,
     technologies,
     workExperiences,
+    researchs,
   } from "./data";
 
   let editMode = false;
@@ -105,6 +105,34 @@
 
   <section>
     <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Research</h2>
+    <hr />
+
+    <ul class="text-left list-disc pl-8">
+      {#each researchs as research}
+        <li>
+          <HideToggle />
+          {#if research.url == undefined}
+            <strong>{research.name}</strong>
+          {:else}
+            <a href="https://{research.url}" target="_blank" rel="noreferrer"
+              ><strong>{research.name}</strong></a
+            >
+          {/if}
+          <ul class="index">{research.details}</ul>
+          {#if research.present}
+            <ul class="index">
+              <strong>Present in</strong>
+              {research.present}
+            </ul>
+          {/if}
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <section>
+    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
 
@@ -127,7 +155,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Reference</h2>
     <hr />
 
     <ul class="text-left list-disc pl-8">
@@ -142,7 +170,7 @@
             >
           {/if}
           {#each reference.details as detail}
-          <ul class="index">{detail}</ul>
+            <ul class="index">{detail}</ul>
           {/each}
         </li>
       {/each}
