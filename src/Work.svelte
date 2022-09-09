@@ -13,7 +13,11 @@
   <div class="flex font-bold mb-2 print:mb-1">
     <div class="flex-1 text-left">{position}</div>
     <div class="flex-0">
+      {#if url != ""}
       <a href={url} target="_blank" rel="noreferrer">{company}</a>
+      {:else}
+      <a target="_blank" style="text-decoration:none" rel="noreferrer">{company}</a>
+      {/if}
     </div>
     <div class="flex-1 text-right">{years.join("-")}</div>
   </div>
