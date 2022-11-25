@@ -83,11 +83,11 @@ export const workExperiences = [
 export const projects = [
   {
     name: "Analysis of Modern Image Classification Platforms for Bone Fracture Detection",
-    details:"In the process of developing this research We present the use of the RL algorithm with FaceNet on masked face recognition and evaluate its performance as compared to the other classification algorithms including ANN, KNN and SVM. Present in The 6th International Conference on Information Technology 2022  (37th# InCIT 2022).",
+    details:"In the process of developing this research We present a comprehensive evaluation of the YOLO-X, YOLO-R and YOLOv7 performance under bone fracture X-ray images. Present in The 6th International Conference on Information Technology 2022  (37th# InCIT 2022).",
   },
   {
-    name: "	Evaluation of Masked Face Recognition of FaceNet Implemented With Machine Learning Algorithms",
-    details:"In the process of developing this research We present a model selection between YOLO-X and YOLO-R, a highly efficient neural network. Present in The 6th International Conference on Information Technology 2022  (37th# InCIT 2022).",
+    name: "Evaluation of Masked Face Recognition of FaceNet Implemented With Machine Learning Algorithms",
+    details: "In the process of developing this research We present the use of the RL algorithm with FaceNet on masked face recognition and evaluate its performance as compared to the other classification algorithms including ANN, KNN and SVM. Present in The 6th International Conference on Information Technology 2022  (37th# InCIT 2022).",
   },
   {
     name: "Fracture Detection and Localization for long bones by X-ray images in JPEG format",
