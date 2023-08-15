@@ -115,13 +115,13 @@ export const researchs = [
     name: "The Evaluation of Bone Fracture Detection of YOLO Series",
     details:"In this paper, we comprehensively study the performance of YOLO-X and YOLO-R under fracture bone X-ray images to locate the fracture locations.",
     present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications',
-    url: "https://ieeexplore.ieee.org/document/9895016/",
+    url: "ieeexplore.ieee.org/document/9895016/",
   },
   {
     name: "Investigation of Multi-agent reinforcement learning on merge ramp for avoiding car crash on highway",
     details:"In this paper, we take the as length of prohibiting area and length of entrance area into the account to evaluate the performance of MARL. As a result, the MARL can avoid the car crashing effectively while achieve high rewards and high vehicle speed.",
     present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications',
-    url: "https://ieeexplore.ieee.org/document/9895011/",
+    url: "ieeexplore.ieee.org/document/9895011/",
   },
   {
     name: "Analysis of Modern Image Classification Platforms for Bone Fracture Detection",
@@ -138,7 +138,7 @@ export const researchs = [
     YOLO-R and YOLOv7 significantly determined by
     the training curves.`,
     present: '2022 6th International Conference on Information Technology (InCIT)',
-    url: "https://ieeexplore.ieee.org/document/10067836",
+    url: "ieeexplore.ieee.org/document/10067836",
   },
 ]
 
