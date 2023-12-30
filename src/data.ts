@@ -6,7 +6,7 @@ export const ogImageUrl =
 export const introData = {
   name: "Pongsakorn Samothai",
   nickname: "Dream",
-  phone: "+6680-652-8198",
+  phone: "+66 80-652-8198",
   email: "p.samothai@outlook.com",
   github: "PSKdream",
   linkedin: "pongsakornn",
