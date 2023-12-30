@@ -6,7 +6,7 @@ export const ogImageUrl =
 export const introData = {
   name: "Pongsakorn Samothai",
   nickname: "Dream",
-  phone: "",
+  phone: "+6680-652-8198",
   email: "p.samothai@outlook.com",
   github: "PSKdream",
   linkedin: "pongsakornn",
@@ -18,29 +18,29 @@ export const technologies = [
   {
     section: "Languages:",
     details:
-      "C, C#, Python, Java, JavaScript, TypeScript, SQL",
+      "C, Python, Java, JavaScript, TypeScript, SQL, Shell script",
   },
   {
     section: "Frameworks:",
     details:
-      "ReactJS, NextJS, SvelteJS, TailwindCSS, Bootstrap, Tensorflow, Keras, Torch, Openai Gym",
+      "ReactJS, SvelteJS, TailwindCSS, Bootstrap, Tensorflow, Keras, Torch, Openai Gym",
   },
   {
     section: "Tools:",
     details:
-      "Git, Docker, Robot Framework, Selenium, Arduino",
+      "Git, Docker, Zsh, Arduino, Markdown",
   },
   {
     section: "Other:",
     details:
-      "Firebase, Vercel, Netlify, DigitalOcean, Hadoop, MongoDB atlas",
+      "CI/CD, CloudFlare, MongoDB atlas, Amazon Web Services",
   },
 ]
 
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Panyapiwat Institute of Management, TH. 2019-Current (GPA 3.96 - 6 Semester)",
+    details: "Panyapiwat Institute of Management, TH. 2019-2022 (GPA 3.96)",
   },
 ]
 
@@ -56,10 +56,10 @@ export const workExperiences = [
     ],
   },
   {
-    position: "Full-stack Developer",
+    position: "Internship Student",
     company: "Brainergy Company Limited",
     url: "https://brainergy.digital/",
-    years: ["Jun 2022", "Current"],
+    years: ["Jun 2022", "Dec 2022"],
     details: [
       "Designed, developed and maintained several core services for website (Face Detection, Reporting, APIs, etc.) stack Django, Angular.",
       "Designed, developed and maintained A back-end system that manages documents and sends emails (Concurrency Service) to customers using Django, Celery.",
@@ -67,47 +67,47 @@ export const workExperiences = [
     ],
   },
   {
-    position: "Full-stack Developer",
-    company: "Outsource",
-    years: ["Jun 2022"],
+    position: "Sr. Full-stack Developer",
+    company: "Brainergy Company Limited",
+    url: "https://brainergy.digital/",
+    years: ["Dec 2022", "Current"],
     details: [
-      "Designed, developed a system for borrowing books in the library with UHF RFID on the Kiosk Touch Screen and installing equipment.",
-      "Designed, developed and maintained website (Book rental, Payment, Face Detection, Reporting, APIs, etc.).",
-      "Develop a membership system using face identification to verify identity using a Thai national ID card.",
-      "Design and installation of on-site network systems using Kiosk Touch Screen.",
-      "Researched & introduced modern technologies to the team, such as SvelteJS, TailwindCSS, Vite, Hardware for Kiosk, etc."
+      "Designed, developed and maintained e-tax service (Generate Document, Sending data to Revenue Department).",
+      "Optimized the performance of the system to be able to handle more than 20,000,000 transection per month.",
+      "Developed Cryptographic Service to encrypt and decrypt the data in the system using Hardware security modules (HSM).",
+      "Developed PDF Certificate Generator Service to generate PDF certificate for customers.",
     ],
   },
 ]
 
 export const projects = [
-  {
-    name: "Analysis of Modern Image Classification Platforms for Bone Fracture Detection",
-    details:"In the process of developing this research We present a comprehensive evaluation of the YOLO-X, YOLO-R and YOLOv7 performance under bone fracture X-ray images. Present in The 6th International Conference on Information Technology 2022  (37th# InCIT 2022).",
-  },
-  {
-    name: "Evaluation of Masked Face Recognition of FaceNet Implemented With Machine Learning Algorithms",
-    details: "In the process of developing this research We present the use of the RL algorithm with FaceNet on masked face recognition and evaluate its performance as compared to the other classification algorithms including ANN, KNN and SVM. Present in The 6th International Conference on Information Technology 2022  (37th# InCIT 2022).",
-  },
-  {
-    name: "Fracture Detection and Localization for long bones by X-ray images in JPEG format",
-    details:"In the process of developing this research We present a model selection between YOLO-X and YOLO-R, a highly efficient neural network. Present in The 37th International Technical Conference on Circuits/System, Computers and Communications (37th# ITC CSCC 2022).",
-  },
-  {
-    name: "Banana Weight Measurement By Using Image",
-    details:"This is a model used to estimate the weight of a banana from an image using convolutional neural networks. This project uses the Tensorflow and Sklearn library in Python and SQLite.",
-    url: "github.com/PSKdream/CE59423/blob/main/project/banana_cnn.ipynb",
-  },
-  {
-    name: "Prommanusorn school’s enrollment system",
-    details:"The system was created as a replacement for the existing enrollment system to accommodate more people. This project made me learn to use new web frameworks such as React, Firestore, and Netlify (Hosting).",
-    // url: "manoonchai.com",
-  },
-  {
-    name: "Prommanusorn school’s recruitment system",
-    details: "The system reads information from the applicant's ID card. And the system will automatically arrange the exam room and seat number. This project uses the Tkinter library in Python and SQLite.",
-    // url: "thwordle.narze.live",
-  },
+  // {
+  //   name: "Analysis of Modern Image Classification Platforms for Bone Fracture Detection",
+  //   details:"In the process of developing this research We present a comprehensive evaluation of the YOLO-X, YOLO-R and YOLOv7 performance under bone fracture X-ray images. Present in The 6th International Conference on Information Technology 2022  (37th# InCIT 2022).",
+  // },
+  // {
+  //   name: "Evaluation of Masked Face Recognition of FaceNet Implemented With Machine Learning Algorithms",
+  //   details: "In the process of developing this research We present the use of the RL algorithm with FaceNet on masked face recognition and evaluate its performance as compared to the other classification algorithms including ANN, KNN and SVM. Present in The 6th International Conference on Information Technology 2022  (37th# InCIT 2022).",
+  // },
+  // {
+  //   name: "Fracture Detection and Localization for long bones by X-ray images in JPEG format",
+  //   details:"In the process of developing this research We present a model selection between YOLO-X and YOLO-R, a highly efficient neural network. Present in The 37th International Technical Conference on Circuits/System, Computers and Communications (37th# ITC CSCC 2022).",
+  // },
+  // {
+  //   name: "Banana Weight Measurement By Using Image",
+  //   details:"This is a model used to estimate the weight of a banana from an image using convolutional neural networks. This project uses the Tensorflow and Sklearn library in Python and SQLite.",
+  //   url: "github.com/PSKdream/CE59423/blob/main/project/banana_cnn.ipynb",
+  // },
+  // {
+  //   name: "Prommanusorn school’s enrollment system",
+  //   details:"The system was created as a replacement for the existing enrollment system to accommodate more people. This project made me learn to use new web frameworks such as React, Firestore, and Netlify (Hosting).",
+  //   // url: "manoonchai.com",
+  // },
+  // {
+  //   name: "Prommanusorn school’s recruitment system",
+  //   details: "The system reads information from the applicant's ID card. And the system will automatically arrange the exam room and seat number. This project uses the Tkinter library in Python and SQLite.",
+  //   // url: "thwordle.narze.live",
+  // },
 ]
 
 export const researchs = [
