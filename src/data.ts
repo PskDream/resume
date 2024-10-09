@@ -18,22 +18,27 @@ export const technologies = [
   {
     section: "Languages:",
     details:
-      "C, Python, Java, JavaScript, TypeScript, SQL, Shell script",
+      "Python, Java, Scala, JavaScript, TypeScript, SQL, Shell script",
   },
   {
     section: "Frameworks:",
     details:
-      "ReactJS, SvelteJS, TailwindCSS, Bootstrap, Tensorflow, Keras, Torch, Openai Gym",
+      "Angular, SvelteJS, Bootstrap, Springboot",
+  },
+  {
+    section: "AI Frameworks:",
+    details:
+      "Tensorflow, Keras, OpenCV",
   },
   {
     section: "Tools:",
     details:
-      "Git, Docker, Zsh, Arduino, Markdown",
+      "Git, Docker, Zsh, Markdown",
   },
   {
     section: "Other:",
     details:
-      "CI/CD, CloudFlare, MongoDB atlas, Amazon Web Services",
+      "CI/CD, CloudFlare, Amazon Web Services",
   },
 ]
 

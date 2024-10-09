@@ -63,6 +63,16 @@
 
   <section>
     <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+    <hr />
+
+    {#each workExperiences as exp}
+      <Work {...exp} />
+    {/each}
+  </section>
+
+  <section>
+    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">
       Technologies and Languages
     </h2>
@@ -95,16 +105,6 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
-    <hr />
-
-    {#each workExperiences as exp}
-      <Work {...exp} />
-    {/each}
-  </section>
-
-  <section>
-    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Research</h2>
     <hr />
 
@@ -131,7 +131,7 @@
     </ul>
   </section>
 
-  <section>
+  <!-- <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
@@ -151,7 +151,7 @@
         </li>
       {/each}
     </ul>
-  </section>
+  </section> -->
 
   <section>
     <HideToggle />
