@@ -10,8 +10,7 @@ export const introData = {
   email: "p.samothai@outlook.com",
   github: "PSKdream",
   linkedin: "pongsakornn",
-  location: "Bangkok, Thailand",
-  // website: "narze.live",
+  location: "Bangkok, Thailand"
 }
 
 export const technologies = [
