@@ -25,19 +25,19 @@ export const technologies = [
       "Angular, SvelteJS, Bootstrap, Springboot",
   },
   {
+    section: "DevOps:",
+    details:
+      "Ansible, Teamcity, Jenkins, Docker, K8s, Helm, Zabbix",
+  },
+  {
+    section: "Cloud:",
+    details:
+      "CloudFlare, Amazon Web Services",
+  },
+  {
     section: "AI Frameworks:",
     details:
       "Tensorflow, Keras, OpenCV",
-  },
-  {
-    section: "Tools:",
-    details:
-      "Git, Docker, Zsh, Markdown",
-  },
-  {
-    section: "Other:",
-    details:
-      "CI/CD, CloudFlare, Amazon Web Services",
   },
 ]
 
@@ -50,13 +50,15 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Internship Student",
-    company: "MFEC Public Company Limited",
-    url: "https://www.mfec.co.th/",
-    years: ["Nov 2020", "Apr 2021"],
+    position: "Full-stack Developer",
+    company: "Brainergy Company Limited",
+    url: "https://brainergy.digital/",
+    years: ["Dec 2022", "Current"],
     details: [
-      "Designed and Developed ETL flow to process the data before sending it for analysis.",
-      "Designed dashboards for data visualization.",
+      "Designed, developed, and maintained e-tax systems that generate XML and PDF/A documents, implementing cryptographic solutions for secure document signing using Hardware Security Modules (HSMs)",
+      "Designed and developed a host-to-host system for sending XML to RD to support over 20,000,000 transactions per month.",
+      "Designed and developed a e-wallet (Closed-Loop) system integrated with expressway infrastructure, optimized for large-scale online transactions.",
+      "Create a continuous integration and continuous deployment (CI/CD) pipeline using Infrastructure as a Service (IaaS) for deploying containers on local servers, utilizing tools such as Docker, TeamCity, Harbor, and Zabbix."
     ],
   },
   {
@@ -71,17 +73,17 @@ export const workExperiences = [
     ],
   },
   {
-    position: "Sr. Full-stack Developer",
-    company: "Brainergy Company Limited",
-    url: "https://brainergy.digital/",
-    years: ["Dec 2022", "Current"],
+    position: "Internship Student",
+    company: "MFEC Public Company Limited",
+    url: "https://www.mfec.co.th/",
+    years: ["Nov 2020", "Apr 2021"],
     details: [
-      "Designed, developed and maintained e-tax service (Generate Document, Sending data to Revenue Department).",
-      "Optimized the performance of the system to be able to handle more than 20,000,000 transection per month.",
-      "Developed Cryptographic Service to encrypt and decrypt the data in the system using Hardware security modules (HSM).",
-      "Developed PDF Certificate Generator Service to generate PDF certificate for customers.",
+      "Designed and Developed ETL flow to process the data before sending it for analysis.",
+      "Designed dashboards for data visualization.",
     ],
   },
+
+
 ]
 
 export const projects = [
@@ -117,13 +119,13 @@ export const projects = [
 export const researchs = [
   {
     name: "The Evaluation of Bone Fracture Detection of YOLO Series",
-    details:"In this paper, we comprehensively study the performance of YOLO-X and YOLO-R under fracture bone X-ray images to locate the fracture locations.",
+    details: "In this paper, we comprehensively study the performance of YOLO-X and YOLO-R under fracture bone X-ray images to locate the fracture locations.",
     present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications',
     url: "ieeexplore.ieee.org/document/9895016/",
   },
   {
     name: "Investigation of Multi-agent reinforcement learning on merge ramp for avoiding car crash on highway",
-    details:"In this paper, we take the as length of prohibiting area and length of entrance area into the account to evaluate the performance of MARL. As a result, the MARL can avoid the car crashing effectively while achieve high rewards and high vehicle speed.",
+    details: "In this paper, we take the as length of prohibiting area and length of entrance area into the account to evaluate the performance of MARL. As a result, the MARL can avoid the car crashing effectively while achieve high rewards and high vehicle speed.",
     present: 'The 37th International Technical Conference on Circuits/System, Computers and Communications',
     url: "ieeexplore.ieee.org/document/9895011/",
   },
@@ -149,7 +151,7 @@ export const researchs = [
 export const references = [
   {
     name: "Assoc. Prof. Parinya Sanguansat",
-    details: [  
+    details: [
       "Department of Computer Engineering",
       "Panyapiwat Institute of Management",
       "Nonthaburi, Thailand",
@@ -157,7 +159,7 @@ export const references = [
   },
   {
     name: "Asst. Prof. Adisorn Kheaksong",
-    details: [  
+    details: [
       "Department of Computer Engineering",
       "Panyapiwat Institute of Management",
       "Nonthaburi, Thailand",
@@ -165,7 +167,7 @@ export const references = [
   },
   {
     name: "Asst. Prof. Kanabadee Srisomboon",
-    details: [  
+    details: [
       "Department of Electrical and Computer Engineering",
       "King Mongkut's University of Technology North Bangkok",
       "Bangkok, Thailand",
