@@ -9,7 +9,7 @@ export const introData = {
   phone: "+66 80-652-8198",
   email: "p.samothai@outlook.com",
   github: "PSKdream",
-  linkedin: "pongsakornn",
+  linkedin: "p-samothai",
   location: "Bangkok, Thailand"
 }
 
