@@ -22,7 +22,7 @@ export const technologies = [
   {
     section: "Frameworks:",
     details:
-      "Angular, SvelteJS, Bootstrap, Springboot",
+      "Angular, Springboot, SvelteJS, Bootstrap",
   },
   {
     section: "DevOps:",
@@ -56,8 +56,7 @@ export const workExperiences = [
     years: ["Dec 2022", "Current"],
     details: [
       "Designed, developed, and maintained e-tax systems that generate XML and PDF/A documents, implementing cryptographic solutions for secure document signing using Hardware Security Modules (HSMs)",
-      "Designed and developed a host-to-host system for sending XML to RD to support over 20,000,000 transactions per month.",
-      "Designed and developed a e-wallet (Closed-Loop) system integrated with expressway infrastructure, optimized for large-scale online transactions.",
+      "Designed and developed a host-to-host system for sending XML to RD.",
       "Create a continuous integration and continuous deployment (CI/CD) pipeline using Infrastructure as a Service (IaaS) for deploying containers on local servers, utilizing tools such as Docker, TeamCity, Harbor, and Zabbix."
     ],
   },
@@ -72,16 +71,16 @@ export const workExperiences = [
       "Designed and developed back-end systems to support migration of cloud services from Google Cloud to AWS.",
     ],
   },
-  {
-    position: "Internship Student",
-    company: "MFEC Public Company Limited",
-    url: "https://www.mfec.co.th/",
-    years: ["Nov 2020", "Apr 2021"],
-    details: [
-      "Designed and Developed ETL flow to process the data before sending it for analysis.",
-      "Designed dashboards for data visualization.",
-    ],
-  },
+  // {
+  //   position: "Internship Student",
+  //   company: "MFEC Public Company Limited",
+  //   url: "https://www.mfec.co.th/",
+  //   years: ["Nov 2020", "Apr 2021"],
+  //   details: [
+  //     "Designed and Developed ETL flow to process the data before sending it for analysis.",
+  //     "Designed dashboards for data visualization.",
+  //   ],
+  // },
 
 
 ]
