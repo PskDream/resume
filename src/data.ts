@@ -1,5 +1,5 @@
 export const fullVersionLink = "https://resume.narze.live"
-export const sourceLink = "https://github.com/PSKdream/resume"
+export const sourceLink = "https://github.com/PskDream/resume"
 export const ogImageUrl =
   "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
 
@@ -8,7 +8,7 @@ export const introData = {
   nickname: "Dream",
   phone: "+66 80-652-8198",
   email: "p.samothai@outlook.com",
-  github: "PSKdream",
+  github: "PskDream",
   linkedin: "p-samothai",
   location: "Bangkok, Thailand"
 }
@@ -101,7 +101,7 @@ export const projects = [
   // {
   //   name: "Banana Weight Measurement By Using Image",
   //   details:"This is a model used to estimate the weight of a banana from an image using convolutional neural networks. This project uses the Tensorflow and Sklearn library in Python and SQLite.",
-  //   url: "github.com/PSKdream/CE59423/blob/main/project/banana_cnn.ipynb",
+  //   url: "github.com/PskDream/CE59423/blob/main/project/banana_cnn.ipynb",
   // },
   // {
   //   name: "Prommanusorn school’s enrollment system",
