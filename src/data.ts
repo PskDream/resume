@@ -17,12 +17,12 @@ export const technologies = [
   {
     section: "Languages:",
     details:
-      "Python, Java, Scala, JavaScript, TypeScript, SQL, Shell script",
+      "Python, Java, Kotlin, Scala, JavaScript/TypeScript",
   },
   {
     section: "Frameworks:",
     details:
-      "Angular, Springboot, SvelteJS, Bootstrap",
+      "Angular, Springboot, SvelteJS, Django, Flask, FastAPI",
   },
   {
     section: "DevOps:",
@@ -32,7 +32,7 @@ export const technologies = [
   {
     section: "Cloud:",
     details:
-      "CloudFlare, Amazon Web Services",
+      "Cloudflare, Amazon Web Services",
   },
   {
     section: "AI Frameworks:",
@@ -55,9 +55,13 @@ export const workExperiences = [
     url: "https://brainergy.digital/",
     years: ["Dec 2022", "Current"],
     details: [
-      "Designed, developed, and maintained e-tax systems that generate XML and PDF/A documents, implementing cryptographic solutions for secure document signing using Hardware Security Modules (HSMs)",
-      "Designed and developed a host-to-host system for sending XML to RD.",
-      "Create a continuous integration and continuous deployment (CI/CD) pipeline using Infrastructure as a Service (IaaS) for deploying containers on local servers, utilizing tools such as Docker, TeamCity, Harbor, and Zabbix."
+      "Designed and developed e-tax systems that generate XML and PDF/A documents.",
+      "Designed and developed a host-to-host system for sending XML to RD over MPLS Network.",
+      "Developed cryptographic solutions for secure document signing using Hardware Security Modules (HSMs).",
+      "Designed and maintained a hybrid cloud system to enable seamless collaboration between On-Premises and AWS environments.",
+      "Implemented a continuous integration and continuous deployment (CI/CD) pipeline for deploying applications.",
+      "Implemented logging and performance monitoring systems using ELK, Zabbix, and Grafana.",
+      "Recovered the state enterprise tax invoice system due to a faulty design by using a cache system and accelerating temporary directories with SAS disks, which increased performance by more than 40%.",
     ],
   },
   {
