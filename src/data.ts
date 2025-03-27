@@ -32,7 +32,7 @@ export const technologies = [
   {
     section: "Cloud:",
     details:
-      "Cloudflare, Amazon Web Services",
+      "Cloudflare, Amazon Web Services, Google Cloud Platform, Microsoft Azure, Local Cloud",
   },
   {
     section: "AI Frameworks:",
@@ -58,7 +58,7 @@ export const workExperiences = [
       "Designed and developed e-tax systems that generate XML and PDF/A documents.",
       "Designed and developed a host-to-host system for sending XML to RD over MPLS Network.",
       "Developed cryptographic solutions for secure document signing using Hardware Security Modules (HSMs).",
-      "Designed and maintained a hybrid cloud system to enable seamless collaboration between On-Premises and AWS environments.",
+      "Designed and maintained a hybrid cloud system to enable seamless collaboration between On-Premises (VMware) and AWS (EC2, EKS, RDS, S3, etc.).",
       "Implemented a continuous integration and continuous deployment (CI/CD) pipeline for deploying applications.",
       "Implemented logging and performance monitoring systems using ELK, Zabbix, and Grafana.",
       "Recovered the state enterprise tax invoice system due to a faulty design by using a cache system and accelerating temporary directories with SAS disks, which increased performance by more than 40%.",
@@ -72,7 +72,7 @@ export const workExperiences = [
     details: [
       "Designed, developed and maintained several core services for website (Face Detection, Reporting, APIs, etc.) stack Django, Angular.",
       "Designed, developed and maintained A back-end system that manages documents and sends emails (Concurrency Service) to customers using Django, Celery.",
-      "Designed and developed back-end systems to support migration of cloud services from Google Cloud to AWS.",
+      "Designed and developed back-end systems to support migration of cloud services from Google Cloud Platform to AWS.",
     ],
   },
   // {
