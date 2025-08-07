@@ -1,5 +1,5 @@
-const { defineConfig } = require('vite');
-const { svelte } = require('@sveltejs/vite-plugin-svelte');
+import { defineConfig } from 'vite';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
 import { fullVersionLink, ogImageUrl } from "./src/data"
 
 const headers = [
@@ -29,6 +29,6 @@ const htmlPlugin = () => {
   }
 }
 
-module.exports = defineConfig({
+export default defineConfig({
   plugins: [svelte(), htmlPlugin()]
 });
