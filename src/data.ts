@@ -105,7 +105,7 @@ export const workExperiences = [
         details: [
             "Designed and developed a web application for cheque book ordering using Angular, Spring Boot, and PostgreSQL.",
             "Implemented a CI/CD pipeline to streamline the deployment process.",
-            "Oversaw task allocation, managed team progress, and conducted code reviews to ensure consistency and maintain coding standards."
+            "Allocate tasks, managed team progress, and conducted code reviews to ensure consistency and maintain coding standards."
         ]
     },
     {
