@@ -30,5 +30,11 @@ const htmlPlugin = () => {
 }
 
 export default defineConfig({
-  plugins: [svelte(), htmlPlugin()]
+  plugins: [svelte({
+    compilerOptions: {
+      compatibility: {
+        componentApi: 4
+      }
+    }
+  }), htmlPlugin()]
 });

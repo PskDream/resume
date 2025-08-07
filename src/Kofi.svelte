@@ -42,5 +42,5 @@
 </svelte:head>
 
 {#if name}
-  <div id="kofiContainer" class="web-only" />
+  <div id="kofiContainer" class="web-only"></div>
 {/if}

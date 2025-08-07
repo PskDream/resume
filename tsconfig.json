@@ -4,11 +4,10 @@
     "target": "esnext",
     "module": "esnext",
     /**
-     * svelte-preprocess cannot figure out whether you have
-     * a value or a type, so tell TypeScript to enforce using
-     * `import type` instead of `import` for Types.
+     * Required for Svelte 5 with TypeScript
+     * Replaces the deprecated importsNotUsedAsValues option
      */
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "isolatedModules": true,
     /**
      * To have warnings / errors of the Svelte compiler at the

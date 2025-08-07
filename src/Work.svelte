@@ -16,7 +16,7 @@
       {#if url !== ""}
       <a href={url} target="_blank" rel="noreferrer">{company}</a>
       {:else}
-      <a target="_blank" style="text-decoration:none" rel="noreferrer">{company}</a>
+      <span style="text-decoration:none">{company}</span>
       {/if}
     </div>
     <div class="flex-1 text-right">{years.join(" - ")}</div>
