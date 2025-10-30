@@ -98,6 +98,17 @@ export const educations = [
 
 export const workExperiences = [
     {
+        position: "Senior Software Engineer",
+        company: "Netbay Public Company Limited",
+        url: "https://www.netbay.co.th/",
+        years: ["Jul 2025", "Present"],
+        details: [
+            "Architected and developed the CHECK+ web platform (CDD, Name Screening, KYC) using Angular, Spring Boot, and PostgreSQL.",
+            "Implemented semantic search powered by Elasticsearch to enhance data retrieval accuracy and reduce response time.",
+            "Collaborated across teams, providing technical consultation and conducting code reviews to uphold best practices and maintain high code quality."
+        ]
+    },
+    {
         position: "Software Engineer",
         company: "TMBThanachart Bank PCL",
         url: "https://www.ttbbank.com/",
@@ -105,7 +116,7 @@ export const workExperiences = [
         details: [
             "Designed and developed a web application for cheque book ordering using Angular, Spring Boot, and PostgreSQL.",
             "Implemented a CI/CD pipeline to streamline the deployment process.",
-            "Allocate tasks, managed team progress, and conducted code reviews to ensure consistency and maintain coding standards."
+            "Coordinated team workflows, delegated development tasks, and led code reviews to ensure maintainability and consistency."
         ]
     },
     {
